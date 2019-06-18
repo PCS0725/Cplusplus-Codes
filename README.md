@@ -1,2 +1,2 @@
 # Cplusplus-Codes
-Contains implementation of basic data structures and algorithms
+  This repository contains implementations of basic to advanced data structures and algorithms generally taught in college.
