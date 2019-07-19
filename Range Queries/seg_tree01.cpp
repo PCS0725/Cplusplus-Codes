@@ -43,7 +43,7 @@ void update(int a[],int l,int r,int idx,int val,int node,int seg[])     //updati
         int mid=(l+r)/2;
         seg[node]=seg[node]+val;
         update(a,l,mid,idx,val,2*node+1,seg);
-        update(a,l,mid,idx,val,2*node+1,seg);
+        update(a,mid+1,r,idx,val,2*node+2,seg);
     }
     else
         return;
